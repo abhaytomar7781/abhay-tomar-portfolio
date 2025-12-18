@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AAASwear | Clothing Store</title>
+  <link rel="stylesheet" href="clothing.css">
+  <script src="clothing.js"></script>
+</head>
+<body>
+  <header>
+    <h1>AAASwear</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#products">Shop</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Modern Fashion, Everyday Style</h2>
+    <p><b>Discover premium streetwear and casual clothing</b></p>
+    <button onclick="scrollToProducts()">Shop Now</button>
+  </section>
+
+  <section id="products" class="products">
+    <div class="card">
+      <img src="classic.avif" alt="T-Shirt" />
+      <h3>Classic T-Shirt</h3>
+      <p>₹1199.00</p>
+      <button onclick="addToCart('Classic T-Shirt')">Add to Cart</button>
+    </div>
+
+    <div class="card">
+      <img src="Denim jacket.webp" alt="Denim Jacket" />
+      <h3>Denim Jacket</h3>
+      <p>₹2199.00</p>
+      <button onclick="addToCart('Denim Jacket')">Add to Cart</button>
+    </div>
+
+    <div class="card">
+      <img src="Hoodie.jpg" alt="Hoodie" />
+      <h3>Comfort Hoodie</h3>
+      <p>₹2599.00</p>
+      <button onclick="addToCart('Comfort Hoodie')">Add to Cart</button>
+    </div>
+    
+    <div class="card">
+      <img src="Baggy.jpg" alt="Baggy pants" />
+      <h3>Cargo pants</h3>
+      <p>₹2359.00</p>
+      <button onclick="addToCart('Baggy pants')">Add to Cart</button>
+    </div>
+  </section>
+
+  <div class="cart" id="cart">🛒 Cart: <span id="count">0</span></div>
+
+  <footer>
+    © 2025 AAASWear. All rights reserved.
+  </footer>
+  <script src="clothing.js"></script>
+</body>
+</html>
