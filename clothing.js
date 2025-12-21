@@ -17,9 +17,9 @@ const productData = [
   { img: "Denim jacket.webp", name: "Denim Jacket", price: "₹2199.00" },
   { img: "Hoodie.jpg", name: "Comfort Hoodie", price: "₹2599.00" },
   { img: "Baggy.jpg", name: "Cargo Pants", price: "₹2359.00" },
-  { img: "sweatshirt.jpg", name: "Oversized Sweatshirt", price: "₹1899.00" },
-  { img: "joggers.jpg", name: "Street Joggers", price: "₹1999.00" },
-  { img: "shirt.jpg", name: "Casual Shirt", price: "₹1699.00" },
+  { img: "sweatshirt.webp", name: "Oversized Sweatshirt", price: "₹1899.00" },
+  { img: "jogger.jpg", name: "Street Joggers", price: "₹1999.00" },
+  { img: "shirt.png", name: "Casual Shirt", price: "₹1699.00" },
   { img: "shorts.jpg", name: "Summer Shorts", price: "₹1299.00" }
 ];
 
@@ -77,3 +77,4 @@ window.addEventListener("scroll", () => {
     loadRow();
   }
 });
+
